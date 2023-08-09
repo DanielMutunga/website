@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace, sans-serif;
+}
+.sectionone{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    /* opacity: 0.7; */
+}
+.sectionone .navbar{
+    height: 20%;
+    width: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .maindiv{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+.navbar a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.navbar a:hover{
+    color: #ffbd39;
+    text-decoration: underline;
+}
+.logo img{
+    height: 120px;
+    width: 120px;
+}
+ .sectionone .banner{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .maindiv{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.banner .introduction{
+    height: 100%;
+    width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner .photo{
+    height: 100%;
+    width: 50%;
+    background-image: url(../Images/Profile_picture.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.introduction span{
+    color: #ffbd39;
+}
+.introduction p{
+    margin-left: -450px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: #4cb5f5;
+}
+.introduction h1{
+    font-size: 35px;
+    line-height: -20px;
+}
+
+.introduction .btn1{
+    height: 40px;
+    width: 110px;
+    border: none;
+    margin-top: 30px;
+    /* margin-left: 20px; */
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 25px;
+    background-color: transparent;
+    border: solid 2px #ffbd39;
+    margin-left: -250px;
+}
+.introduction .btn2{
+    height: 40px;
+    width: 85px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 25px;
+    background-color: transparent;
+    border: solid 2px #ffbd39;
+}
+/* END OF SECTION ONE */
+
+/* START OF SECTION TWO */
+.sectiontwo{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+.sectiontwo .maindiv{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+}
+.sectiontwo .photo{
+    height: 100%;
+    width: 50%;
+    background-image: url(../Images/Profile_picture.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.sectiontwo .about-me{
+    height: 100%;
+    width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sectiontwo h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: -280px;
+}
+.sectiontwo .Pablo{
+    font-size: 16px;
+    font-family: 800;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.sectiontwo .details{
+    line-height: -10px;
+    
+}
+.sectiontwo span{
+    color: #ffbd39;
+    font-size: 20px;
+}
+.sectiontwo a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    border:solid 2px #ffbd39;
+    border-radius: 25px;
+    margin-left: -280px;
+}
+.sectiontwo a:hover{
+    color: #ffbd39;
+    border: solid 2px #fff;
+}
+/* END OF SECTION TWO */
+
+
+/* START OF SECTION FOUR */
+.sectionfour{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #000;
+}
+.sectionfour .divmain{
+    height: 85%;
+    width: 60%;
+}
+.divmain .header{
+    height: 10%;
+    width: 100%;
+}
+.header h1{
+    font-size: 30px;
+    color: #ffbd39;
+}
+.divmain .services{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.services .upper{
+    height: 48%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.services .lower{
+    height: 48%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.upper .service1{
+    height: 100%;
+    width: 45%;
+    border-radius: 15px;
+    background-color: #302a2a;
+}
+.upper .service2{
+    height: 100%;
+    width: 45%;
+    border-radius: 15px;
+    background-color: #302a2a;
+}
+.lower .service3{
+    height: 100%;
+    width: 45%;
+    border-radius: 15px;
+    background-color: #302a2a;
+}
+.lower .service4{
+    height: 100%;
+    width: 45%;
+    border-radius: 15px;
+    background-color: #302a2a;
+}
+.services .photo{
+    width: 100%;
+    height: 85%;
+    border-radius: 15px 15px 0px 0px;
+}
+.services .text{
+    width: 100%;
+    height: 15%;
+    border-radius:0px 0px 15px 15px;
+    background-color: #fff;
+}
+.service1 .photo{
+    background-image: url(../Images/Data\ Analytics.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.service2 .photo{
+    background-image: url(../Images/Web\ Dev.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.service3 .photo{
+    background-image: url(../Images/statistical\ Modelling.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.service4 .photo{
+    background-image: url(../Images/design.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.services p{
+    color: #000;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.services .connect{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    opacity: 0;
+}
+.services .fa-solid{
+    font-size: 18px;
+    color: #fff;
+}
+.services .connect:hover{
+    opacity: 0.8;
+}
+/* END OF SECTION FOUR */
+
+/* START OF SECTION FIVE */
+.sectionfive{
+    height: 60vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sectionfive .centerdiv{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #dfd7d7; */
+}
+.centerdiv .contactInfo{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    /* background-color: aqua; */
+}
+.label{
+    margin-left: -90px;
+    margin-bottom: 30px;
+}
+input {
+    height: 35px;
+    border: solid 2px #ffbd39;
+}
+.input button{
+    padding: 10px 10px;
+    background-color: transparent;
+    border: solid 2px #ffbd39;
+    color: white;
+    border-radius: 15px;
+}
