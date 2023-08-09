@@ -140,7 +140,7 @@
 .sectiontwo .photo{
     height: 100%;
     width: 50%;
-    background-image: url(../Images/Profile_picture.JPG);
+    background-image: url(../images/Profile_picture.JPG);
     background-position: center;
     background-size: cover;
 }
@@ -274,22 +274,22 @@
     background-color: #fff;
 }
 .service1 .photo{
-    background-image: url(../Images/Data\ Analytics.jpg);
+    background-image: url(../images/Data\ Analytics.jpg);
     background-position: center;
     background-size: cover;
 }
 .service2 .photo{
-    background-image: url(../Images/Web\ Dev.jpg);
+    background-image: url(../images/Web\ Dev.jpg);
     background-position: center;
     background-size: cover;
 }
 .service3 .photo{
-    background-image: url(../Images/statistical\ Modelling.jpg);
+    background-image: url(../images/statistical\ Modelling.jpg);
     background-position: center;
     background-size: cover;
 }
 .service4 .photo{
-    background-image: url(../Images/design.jpg);
+    background-image: url(../images/design.jpg);
     background-position: center;
     background-size: cover;
 }
